@@ -127,3 +127,11 @@ if ($friendcount % 3 != "2"){
 
 ?>
 </div>
+<script>
+$(document).ready(function() {
+    $(".friendformdiv").click(function(){
+        $(this).find('.friendform').submit();
+        $(this).html("Finding...");
+    });
+});
+</script>
