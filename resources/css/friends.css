@@ -1,0 +1,71 @@
+/*
+Githeri.com Copyright 2013. All Rights Reserved.
+*/
+/* 
+    Created on : 08/01/2014, 12:08:38 PM
+    Author     : Chausse
+*/
+
+.friendswrap{
+    width:650px;
+    margin-top:20px;
+}
+
+.threefriends{
+    width:650px;
+    height:200px;
+    margin-bottom:20px;
+}
+
+.friend{
+    float:left;
+    width:200px;
+    height:200px;
+    margin-right:25px;
+    background-image: url("../../resources/images/defaultprofpic.jpg");
+    background-size:200px 200px;
+}
+
+.friendlast{
+    float:left;
+    width:200px;
+    height:200px;
+    background-image: url("../../resources/images/defaultprofpic.jpg");
+    background-size:200px 200px;
+}
+
+.friendimg{
+}
+
+.friendbutton{
+    color:#696969;
+    border-radius: 5px;
+    margin-top:160px;
+    margin-right:auto;
+    margin-left:auto;
+    width:180px;
+    height:30px;
+    line-height:30px;
+    background-color:yellow;
+    overflow:hidden;
+}
+
+.friendbutton:hover{
+    color:black;
+    cursor: pointer;
+}
+
+.postsender{
+    color:blue;
+}
+
+.postsender:hover{
+    cursor:pointer;
+}
+
+.msgbutton{
+    position:absolute;
+    right: 0;
+    width:20px;
+    height:16px;
+}

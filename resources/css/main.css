@@ -1,0 +1,246 @@
+/*
+Githeri.com Copyright 2013. All Rights Reserved.
+*/
+/* 
+    Created on : 22/10/2013, 4:04:15 AM
+    Author     : Chausse
+*/
+
+html, body{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    height: 100%;
+    min-width: 650px;
+}
+
+.wrapper{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -50px;
+}
+
+.header{
+    background-image:url('../../resources/images/bkgrnd.jpg');
+    background-repeat:repeat-x;
+}
+
+.footer, .push {
+    height: 50px;
+}
+
+.footer{
+    text-align: center;
+    background-color:#646464;
+    color:lightgray;
+    font-size:10px;
+}
+
+.footerwrap{
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+
+.footersmall{
+    display:inline-block;
+    font-size:10px;
+    color:white;
+    margin-top:4px;
+}
+.footersmall:hover{
+    cursor:pointer;
+}
+
+.navbar{
+    height:50px;
+    min-width:650px;
+}
+
+.logoimg:hover, .logoimgloggedin:hover{
+    cursor:pointer;
+}
+
+.navbar h4{
+    color:gray;
+}
+
+.navbar li{
+    position:relative;
+    display:block;
+    float:left;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    padding-left:8px;
+    padding-right:8px;
+    margin-right:10px;
+    color:gray;
+    cursor: pointer;
+}
+
+.navbar li:hover h4.mainlink{
+    color:white;
+}
+
+.navbar li:active h4.mainlink{
+    /*color:yellow;*/
+}
+.navbar li:hover .subnav{
+    left:0px;
+}
+.subnav{
+    position:absolute;  
+    left:-999em;
+    background-color:#262626;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    z-index:1;
+}
+
+.subnavmsgs{
+    position:absolute;  
+    left:-999em;
+    margin-top:-5px;
+    width:400px;
+    background-color:#262626;
+    z-index:3;
+}
+
+.msgfragment{
+    text-align:left;
+    padding-left:10px;
+    padding-right:10px;
+    width:380px;
+    height:50px;
+    overflow:hidden;
+}
+
+.msgfragment:hover{
+    background-color:#424242;
+}
+
+.msgfragmentuser{
+    color:lightblue;
+}
+
+.msgfraghyphen{
+    color:red;
+}
+
+.rightmnu{
+    float:right;
+    line-height: 50px;
+    right:0px;
+    font-size:0.8em;
+    color:#d7d7d7;
+}
+.rightmnu a{
+    text-decoration:none;
+    color:gray;
+    font-size:1.2em;
+}
+.rightmnu a:hover{
+    color:white;
+}
+.rightmnu li{
+    margin-right:0px;
+}
+.subnav li:hover h4{
+    color:white;
+}
+
+.footer p{
+    margin-top:10px;
+    text-align:center;
+    font-size:.6em;
+    color:#b0b0b0;
+}
+
+.maincontentwrapper {
+    text-align: center;
+    color: #292929;
+}
+.hidden{
+    display:none;
+}
+.maincontentwrapper h1{
+    font-size:2em;  
+}
+.maincontentwrapper h2{
+    font-size:1.7em;
+    color:red;
+}
+.maincontentwrapper h3{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.maincontentwrapper p{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.maincontentwrapper img.mainimg{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.maincontentwrapper ul{
+    color:red;
+}
+.introcontent{
+    margin-top:10px;
+}
+.introcontent li{
+    padding-left: 20px;
+    padding-right: 20px;
+    display:inline;
+}
+h3.taketour{
+    color:blue;
+    margin-bottom:10px;
+}
+h3.taketour:hover{
+    cursor:pointer;
+    color:darkred;
+}
+
+.signupbutton{
+    height:50px;
+    width:200px;
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    background-image: url("../../resources/images/signup-button.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.signupbutton:hover{
+    background-image: url("../../resources/images/signup-button-hover.png");
+    background-repeat: no-repeat;
+}
+.signupbutton:active{
+    background-image: url("../../resources/images/signup-button-active.png");
+    background-repeat: no-repeat;
+}
+.nosignupbutton{
+    height:50px;
+    width:300px;
+    margin-left:auto;
+    margin-right:auto;
+    background-image: url("../../resources/images/without-signup-button.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.nosignupbutton:hover{
+    background-image: url("../../resources/images/without-signup-button-hover.png");
+    background-repeat: no-repeat;
+}
+.nosignupbutton:active{
+    background-image: url("../../resources/images/without-signup-button-active.png");
+    background-repeat: no-repeat;
+}
+
+.highlightmsgs{
+    width:650px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:yellow;
+}

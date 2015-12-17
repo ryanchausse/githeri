@@ -1,0 +1,24 @@
+/*
+Githeri.com Copyright 2013. All Rights Reserved.
+*/
+/* 
+    Created on : 20/12/2013, 9:15:44 PM
+    Author     : Chausse
+*/
+
+.contactwrapper{
+    width:650px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+}
+.contactform{
+    margin-left:auto;
+    margin-right:auto;
+}
+.lbl{
+    text-align: right;
+}
+.ipt{
+    text-align: left;
+}

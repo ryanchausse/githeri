@@ -1,0 +1,111 @@
+/*
+Githeri.com Copyright 2013. All Rights Reserved.
+*/
+/* 
+    Created on : 04/01/2014, 3:02:36 AM
+    Author     : Chausse
+*/
+
+.majsectdiv{
+    width:650px;
+    height:30px;
+    margin-top:20px;
+    margin-right:auto;
+    margin-left:auto;
+    line-height:30px;
+    border-radius: 10px;
+    background-color:rgb(90, 90, 255);
+    color:white;
+}
+
+.lessonwrapper{
+    margin-bottom:20px;
+    width:650px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.groupof3{
+    display:inline-block;
+    margin-top:20px;
+    margin-bottom:20px;
+    width:650px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.lessondiv{
+    float:left;
+    position:relative;
+    border-radius:5px;
+    width:200px;
+    margin-right:25px;
+    text-align:left;
+    background-color:rgb(197, 225, 255);
+}
+
+.lessondivlast{
+    float:left;
+    position:relative;
+    border-radius:5px;
+    width:200px;
+    text-align:left;
+    background-color:rgb(197, 225, 255);
+}
+
+.lessontitle{
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width:200px;
+    background-color:rgb(239, 255, 60);
+}
+
+.lessondiv ul, .lessondivlast ul{
+    padding:5px;
+    list-style-position: inside;
+    list-style-type:circle;
+    color:black;
+}
+
+.lessontitle h3{
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.specificles:hover{
+    cursor:pointer;
+}
+
+.phrasewrap:hover{
+    cursor:pointer;
+}
+
+.lessonheadline{
+    font-size:1.2em;
+    color:indigo;
+}
+
+.phraseheadline{
+    font-size:1.2em;
+    color:indigo;
+}
+
+.lessonwrap{
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-left:10px;
+}
+
+.phrasewrap{
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-left:10px;
+}
+
+.completedcheck{
+    position:absolute;
+    right:0;
+    height:20px;
+    z-index:2;
+}

@@ -1,0 +1,39 @@
+/*
+Githeri.com Copyright 2013. All Rights Reserved.
+*/
+/* 
+    Created on : 08/01/2014, 12:08:48 PM
+    Author     : Chausse
+*/
+
+.messagewrap{
+    width:650px;
+    text-align:left;
+    margin-top:20px;
+    font-size:1.2em;
+}
+
+.replymsg{
+    margin-top:10px;
+    margin-left:30px;
+    color:darkred;
+    font-size:.8em;
+}
+.seeconvo{
+    margin-top:5px;
+    margin-left:30px;
+    color:darkred;
+    font-size:.8em;
+}
+
+.convoreplymsg{
+    text-align:left;
+}
+
+.replymsgspan:hover{
+    cursor:pointer;
+}
+
+.seeconvospan:hover{
+    cursor:pointer;
+}

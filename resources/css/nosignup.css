@@ -1,0 +1,29 @@
+/*
+Githeri.com Copyright 2013. All Rights Reserved.
+*/
+/* 
+    Created on : 23/12/2013, 6:14:02 PM
+    Author     : Chausse
+*/
+
+.menunologin{
+    width:650px;
+    height:40px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius: 5px;
+    background-color:lightblue;
+    display:table;
+}
+
+.menuitem{
+    display:table-cell;
+    vertical-align: middle;
+}
+
+.menuitem:hover{
+    cursor: pointer;
+    color: darkblue;
+}

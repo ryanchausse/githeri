@@ -1,0 +1,24 @@
+/*
+Githeri.com Copyright 2013. All Rights Reserved.
+*/
+/* 
+    Created on : 09/01/2014, 9:50:23 AM
+    Author     : Chausse
+*/
+
+.canceleditprofilebutton{
+    color:#696969;
+    position:absolute;
+    border-radius: 5px;
+    right: 0;
+    width:80px;
+    height:30px;
+    text-align: center;
+    line-height:30px;
+    background-color:yellow;
+}
+
+.canceleditprofilebutton:hover{
+    color:black;
+    cursor: pointer;
+}

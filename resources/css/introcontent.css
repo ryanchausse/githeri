@@ -1,0 +1,16 @@
+/*
+Githeri.com Copyright 2013. All Rights Reserved.
+*/
+/* 
+    Created on : 20/12/2013, 9:03:26 PM
+    Author     : Chausse
+*/
+.introcontent{
+    padding-top:10px;
+}
+.introcontent li{
+    padding-left: 20px;
+    padding-right: 20px;
+    display:inline;
+}
+

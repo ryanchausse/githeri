@@ -1,0 +1,33 @@
+/*
+Githeri.com Copyright 2013. All Rights Reserved.
+*/
+/* 
+    Created on : 20/12/2013, 9:16:08 PM
+    Author     : Chausse
+*/
+
+.faqwrapper{
+    width:650px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: left;
+}
+
+#faqs h3{
+    color:#5E5E5E;
+    font-size: 1.4em;
+}
+
+#faqs h3:hover{
+    cursor:pointer;
+    color:darkblue;
+}
+
+#faqs h3:active{
+    color:darkred;
+}
+
+#faqs p{
+    margin-left:25px;
+    font-size: 1em;
+}

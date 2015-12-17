@@ -1,0 +1,150 @@
+/*
+Githeri.com Copyright 2013. All Rights Reserved.
+*/
+/* 
+    Created on : 04/01/2014, 3:02:22 AM
+    Author     : Chausse
+*/
+
+.profilewrap{
+    width:650px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.upperwrap{
+    margin-left:auto;
+    margin-right:auto;
+    width:650px;
+    min-height:250px;
+    margin-bottom:10px;
+}
+
+.picdiv{
+    float:left;
+    width:250px;
+    height:250px;
+    margin-right:10px;
+}
+
+.profinfo{
+    position:relative;
+    text-align: left;
+    float:left;
+    width:390px;
+    min-height:250px;
+    margin-bottom:20px;
+}
+
+.profileinfosub{
+    margin-top:10px;
+    text-align:left;
+}
+
+.bottomprofwrap{
+    
+}
+
+.posts{
+    width:650px;
+}
+
+.profinfotable{
+    width:390px;
+}
+
+.lbl{
+    text-align: left;
+    color:darkgreen;
+}
+
+.ipt{
+    text-align: left;
+}
+
+.postthis{
+    width:650px;
+    height:30px;
+    margin-top:10px;
+    margin-bottom:10px;
+    line-height: 30px;
+}
+
+.postinputbox{
+    float:left;
+    text-align:left;
+    width:530px;
+    height:30px;
+}
+
+.postcontent{
+    width:510px;
+}
+
+.postbutton{
+    color:#333333;
+    border-radius: 5px;
+    float:left;
+    background-color:yellow;
+    width:120px;
+    height:30px;
+}
+
+.postbutton:hover{
+    color:black;
+    cursor: pointer;
+}
+
+.alreadyposted{
+    text-align:left;
+}
+
+.changepicbutton{
+    color:#696969;
+    border-radius: 5px;
+    margin-top:210px;
+    margin-right:auto;
+    margin-left:auto;
+    width:100px;
+    height:30px;
+    line-height:30px;
+    background-color:yellow;
+}
+
+.changepicbutton:hover{
+    color:black;
+    cursor: pointer;
+}
+
+.editprofilebutton{
+    color:#696969;
+    position:absolute;
+    border-radius: 5px;
+    right: 0;
+    width:60px;
+    height:30px;
+    text-align: center;
+    line-height:30px;
+    background-color:yellow;
+}
+
+.editprofilebutton:hover{
+    color:black;
+    cursor: pointer;
+}
+
+.postsender{
+    color:blue;
+}
+.postsender:hover{
+    cursor:pointer;
+}
+
+.msgbutton{
+    position:absolute;
+    right: 0;
+    width:20px;
+    height:16px;
+}

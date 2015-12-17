@@ -1,0 +1,34 @@
+/*
+Githeri.com Copyright 2013. All Rights Reserved.
+*/
+/* 
+    Created on : 08/01/2014, 6:37:09 PM
+    Author     : Chausse
+*/
+
+.uploadprofpicwrapper{
+    position:relative;
+}
+
+.cancelpicupload{
+    color:#696969;
+    position:absolute;
+    border-radius: 5px;
+    right: 0;
+    width:80px;
+    height:30px;
+    text-align: center;
+    line-height:30px;
+    background-color:yellow;
+}
+
+.cancelpicupload:hover{
+    color:black;
+    cursor: pointer;
+}
+
+.uploadprofpictable{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+}

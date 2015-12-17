@@ -1,0 +1,29 @@
+/*
+Githeri.com Copyright 2013. All Rights Reserved.
+*/
+/* 
+    Created on : 15/01/2014, 4:50:09 PM
+    Author     : Chausse
+*/
+
+.blogwrapper{
+    text-align: left;
+    width:650px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+tr.timeblogposted{
+    font-size:0.8em;
+    color:darkgray;
+}
+
+tr.blogpostcontent{
+    line-height:1.4em;
+    font-size:1.2em;
+}
+
+tr.blogpostauthor{
+    font-size:0.8em;
+    color:darkgray;
+}

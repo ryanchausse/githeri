@@ -1,0 +1,503 @@
+/*
+Githeri.com Copyright 2013. All Rights Reserved.
+*/
+/* 
+    Created on : 07/02/2014, 10:06:14 AM
+    Author     : Chausse
+*/
+
+.phrasesectwrap{
+    width:650px;
+    height:450px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.chooselearnortest{
+    border-radius:5px;
+    width:650px;
+    height:450px;
+    /*background-color:yellow;*/
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.hiddensection{
+    display:none;
+    border-radius:5px;
+    width:650px;
+    height:450px;
+    /*background-color:yellow;*/
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.hiddenlearnsection{
+    display:none;
+    border-radius:5px;
+    width:650px;
+    height:450px;
+    /*background-color:yellow;*/
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.endoflearnwords{
+    display:none;
+    border-radius:5px;
+    width:650px;
+    height:450px;
+    /*background-color:yellow;*/
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.correctscrn{
+    display:none;
+    border-radius:5px;
+    width:650px;
+    height:450px;
+    /*background-color:yellow;*/
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.wrongscrn{
+    display:none;
+    border-radius:5px;
+    width:650px;
+    height:450px;
+    /*background-color:yellow;*/
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.firstscrn{
+    border-radius:5px;
+    width:650px;
+    height:450px;
+    /*background-color:yellow;*/
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.failscrn{
+    display:none;
+    border-radius:5px;
+    width:650px;
+    height:450px;
+    /*background-color:yellow;*/
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.lastscr{
+    display:none;
+    border-radius:5px;
+    width:650px;
+    height:450px;
+    /*background-color:yellow;*/
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.saveandreturn{
+    display:none;
+    border-radius:5px;
+    width:650px;
+    height:450px;
+    /*background-color:yellow;*/
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.topbar{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width:650px;
+    height:30px;
+    line-height:30px;
+    /*background-color:orange;*/
+}
+
+.topbarleft{
+    float:left;
+    border-top-left-radius: 5px;
+    width:450px;
+    height:30px;
+    /*background-color:magenta;*/
+}
+
+.introtopbarleft{
+    float:left;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width:650px;
+    height:30px;
+    /*background-color:magenta;*/
+}
+
+.topbarright{
+    float:left;
+    border-top-right-radius: 5px;
+    width:200px;
+    height:30px;
+    /*background-color:blue;*/
+}
+
+.mainbarwrap{
+    width:650px;
+    height:380px;
+    /*background-color:yellow;*/
+}
+
+.mainleft{
+    float:left;
+    width:250px;
+    height:380px;
+    /*background-color:purple;*/
+}
+
+.intromainleft{
+    float:left;
+    width:325px;
+    height:380px;
+    /*background-color:purple;*/
+}
+
+.phrasedesc{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    width:200px;
+    min-height:20px;
+    font-size:25px;
+    /*background-color:lightblue;*/
+}
+
+.underphrasedesc{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    width:200px;
+    min-height:20px;
+    font-size:20px;
+    /*background-color:red;*/
+}
+
+.introunderphrasedesc{
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 5px;
+    margin-top:20px;
+    margin-bottom:20px;
+    width:200px;
+    min-height:50px;
+    line-height:50px;
+    font-size:30px;
+    color:white;
+    background-color:blue;
+}
+
+.introunderphrasedesc:hover{
+    cursor:pointer;
+}
+
+.mainright{
+    float:left;
+    width:400px;
+    height:380px;
+    /*background-color:pink;*/
+}
+
+.intromainright{
+    float:left;
+    width:325px;
+    height:380px;
+    /*background-color:pink;*/
+}
+
+.instructdesc{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    width:350px;
+    min-height:20px;
+    font-size:25px;
+    /*background-color:lightblue;*/
+}
+
+.introinstructdesc{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    width:200px;
+    min-height:20px;
+    font-size:25px;
+    /*background-color:lightblue;*/
+}
+
+.underinstructdesc{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    width:350px;
+    min-height:20px;
+    /*background-color:red;*/
+}
+
+.learnunderinstructdesc{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    width:350px;
+    min-height:20px;
+    font-size:20px;
+    /*background-color:red;*/
+}
+
+.introlearnunderinstructdesc{
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 5px;
+    margin-top:20px;
+    margin-bottom:20px;
+    width:200px;
+    min-height:50px;
+    line-height:50px;
+    font-size:30px;
+    color:white;
+    background-color:blue;
+}
+
+.introlearnunderinstructdesc:hover{
+    cursor:pointer;
+}
+
+.txtareaunderinstructdesc{
+    height:200px;
+    width:350px;
+}
+
+.lowerbar{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width:650px;
+    height:40px;
+    line-height:40px;
+    /*background-color:goldenrod;*/
+}
+
+.lowerbarleft{
+    float:left;
+    border-bottom-left-radius: 5px;
+    width:450px;
+    height:40px;
+    /*background-color:lightsalmon;*/
+}
+
+.hintbutton{
+    display:none;
+    float:left;
+    border-radius:5px;
+    /*border-bottom-right-radius: 5px;*/
+    width:100px;
+    height:40px;
+    background-color:yellow;
+}
+
+.introhintbutton{
+    float:left;
+    width:100px;
+    height:40px;
+    /*background-color:lightgoldenrodyellow;*/
+}
+
+.hidehintbutton{
+    float:left;
+    width:100px;
+    height:40px;
+    /*background-color:lightgoldenrodyellow;*/
+}
+
+.hintbutton:hover{
+    cursor:pointer;
+}
+
+.submitresponse{
+    float:left;
+    border-radius:5px;
+    /*border-bottom-right-radius: 5px;*/
+    width:100px;
+    height:40px;
+    background-color:darkblue;
+    color:white;
+}
+
+.submitresponse:hover{
+    cursor:pointer;
+}
+
+.learnnext{
+    float:left;
+    text-align:center;
+    border-radius:5px;
+    /*border-bottom-right-radius: 5px;*/
+    width:100px;
+    height:40px;
+    background-color:darkblue;
+    color:white;
+}
+
+.introlearnnext{
+    float:left;
+    border-bottom-right-radius: 5px;
+    width:100px;
+    height:40px;
+    /*background-color:lightblue;*/
+}
+
+.learnnext:hover{
+    cursor:pointer;
+}
+
+.learnlessonnext{
+    float:left;
+    border-radius:5px;
+    /*border-bottom-right-radius: 5px;*/
+    width:100px;
+    height:40px;
+    background-color:darkblue;
+    color:white;
+}
+
+.learnlessonnext:hover{
+    cursor:pointer;
+}
+
+.learnlessonnexttxt{
+    float:left;
+    border-radius:5px;
+    /*border-bottom-right-radius: 5px;*/
+    width:100px;
+    height:40px;
+    text-align:center;
+    background-color:darkblue;
+    color:white;
+}
+
+.learnlessonnexttxt:hover{
+    cursor:pointer;
+}
+
+.hiddenanswer{
+    display:none;
+}
+
+.usranswr{
+    display:none;
+}
+
+.nextbutton{
+    float:left;
+    border-radius:5px;
+    /*border-bottom-right-radius: 5px;*/
+    width:100px;
+    height:40px;
+    background-color:darkblue;
+    color:white;
+}
+
+.nextbutton:hover{
+    cursor:pointer;
+}
+
+.backbutton{
+    float:left;
+    border-radius:5px;
+    /*border-bottom-right-radius: 5px;*/
+    width:100px;
+    height:40px;
+    background-color:darkblue;
+    color:white;
+}
+
+.backbutton:hover{
+    cursor:pointer;
+}
+
+.startover{
+    border-radius:5px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    line-height:40px;
+    /*border-bottom-right-radius: 5px*/
+    width:200px;
+    height:40px;
+    background-color:darkblue;
+    color:white;
+}
+
+.startover:hover{
+    cursor:pointer;
+}
+
+.startoverinteractive{
+    border-radius:5px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    line-height:40px;
+    /*border-bottom-right-radius: 5px*/
+    width:200px;
+    height:40px;
+    background-color:darkblue;
+    color:white;
+}
+
+.startoverinteractive:hover{
+    cursor:pointer;
+}
+
+.correctmsg{
+    padding-top:20px;
+    font-size:70px;
+}
+
+.wrongmsg{
+    padding-top:20px;
+    font-size:70px;
+}
+
+.failmsg{
+    padding-top:20px;
+    font-size:30px;
+}
+
+.donemsg{
+    padding-top:20px;
+    font-size:30px;
+}
+
+.donenosigninmsg{
+    padding-top:20px;
+    font-size:30px;
+}
+
+.savereturnmsg{
+    padding-top:20px;
+    font-size:30px;
+}
+
+.welcometolesson{
+    font-size:30px;
+}

@@ -1,0 +1,43 @@
+/*
+Githeri.com Copyright 2013. All Rights Reserved.
+*/
+/* 
+    Created on : 23/12/2013, 6:59:05 PM
+    Author     : Chausse
+*/
+
+.quickreftbl{
+    width:650px;
+    margin-top:15px;
+    margin-bottom:40px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.quickreftbl table{
+    border: 1px solid black;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.quickreftbl table tr{
+    border: 1px solid black;
+    padding:5px;
+}
+
+.quickreftbl table th{
+    border: 1px solid black;
+    padding:5px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.quickreftbl table td{
+    border: 1px solid black;
+    width:325px;
+    padding:5px;
+}
+
+.quickreftbl tr:nth-child(even) {
+    background-color: #DEDEDE;
+}

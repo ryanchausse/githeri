@@ -1,0 +1,45 @@
+/*
+Githeri.com Copyright 2013. All Rights Reserved.
+*/
+/* 
+    Created on : 11/12/2013, 2:07:20 AM
+    Author     : Chausse
+*/
+
+h1.tourwelcome{
+    margin-top:20px;
+    margin-bottom:20px;
+    color:red;
+}
+.bigwrapper{
+    width:650px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.threecolwrapper{
+    margin-top:20px;
+    margin-bottom:20px;
+    width:650px;
+    text-align:left;
+    font-size: 0.9em;
+}
+.leftcol{
+    width:200px;
+    float:left;
+    margin-right:25px;
+}
+.midcol{
+    width:200px;
+    float:left;
+    margin-right:25px;
+}
+.rightcol{
+    width:200px;
+    float:left;
+}
+.scrnshtimg{
+    width:500px;
+    margin-left:auto;
+    margin-right:auto;
+    border:1px solid;
+}
