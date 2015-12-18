@@ -67,3 +67,25 @@ if ($result ->num_rows < 1){
     }
 ?>
 </div>
+
+<script>
+    $(".replymsgbox").hide();
+
+    $(".postsender").click(function(){
+        $(this).find('.postsenderform').submit();
+        $(this).html("Finding...");
+    });
+
+    $(".seeconvospan").click(function(){
+        $(this).find('.seeconvoform').submit();
+        $(this).html("Finding...");
+    });
+
+    $(".replymsgspan").click(function(){
+        if ($(this).parent().find('.replymsgbox').css('display') == "none"){
+            $(this).parent().find('.replymsgbox').css('display','block');
+        }else{
+            $(this).parent().find('.replymsgbox').css('display','none');
+        }
+    });
+</script>
